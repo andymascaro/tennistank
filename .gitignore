@@ -6,7 +6,7 @@
 !/.git*
 
 # Do not ignore current project's `.uproject`.
-!/Grid1.uproject
+!/TennisTank.uproject
 
 # Do not ignore source, config and plugins dirs.
 !/Source/**
