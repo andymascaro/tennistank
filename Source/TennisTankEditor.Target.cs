@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class ARSampleEditorTarget : TargetRules
+public class TennisTankEditorTarget : TargetRules
 {
-	public ARSampleEditorTarget(TargetInfo Target) : base(Target)
+	public TennisTankEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "ARSample" } );
+		ExtraModuleNames.AddRange( new string[] { "TennisTank" } );
 	}
 }

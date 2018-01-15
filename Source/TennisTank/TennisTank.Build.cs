@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class ARSample : ModuleRules
+public class TennisTank : ModuleRules
 {
-	public ARSample(ReadOnlyTargetRules Target) : base(Target)
+	public TennisTank(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
